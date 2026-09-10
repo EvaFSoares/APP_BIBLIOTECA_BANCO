@@ -1,0 +1,2 @@
+insert into `livro`(`titulo`, `autor`, `editora`, `ano`, `categoria`, `quantidadeDisponivel`, `quantidadeTotal`)
+values ('Vidas Secas', 'Graciliano Ramos', 'Record', 1938, 'romance', 8, 10);

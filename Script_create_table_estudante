@@ -1,0 +1,8 @@
+create table `estudante`(
+`idEstudante` int not null auto_increment,
+`nome` varchar(100) not null,
+`turma` varchar(20) not null,
+`matricula` varchar(100) not null,
+`contato` varchar(50) not null,
+primary key(`idEstudante`)
+);

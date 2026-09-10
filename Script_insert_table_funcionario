@@ -1,0 +1,2 @@
+insert into `funcionario`(`login`, `senha`, `nome`)
+values ('dianemoura@gmail.com', '12345', 'Diane');

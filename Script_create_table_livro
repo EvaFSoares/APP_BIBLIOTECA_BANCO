@@ -1,0 +1,11 @@
+create table `livro`(
+`idLivro` int not null auto_increment,
+`titulo` varchar(50) not null,
+`autor` varchar(50) not null,
+`editora` varchar(50) not null,
+`ano` int not null,
+`categoria` varchar(50) not null,
+`quantidadeDisponivel` int not null,
+`quantidadeTotal` int not null,
+primary key(`idLivro`)
+);

@@ -1,0 +1,2 @@
+insert into `estudante`(`nome`, `turma`, `matricula`, `contato`)
+values ('Lorena', '2B', '1047', 31990110828);

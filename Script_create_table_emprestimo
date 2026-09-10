@@ -1,0 +1,8 @@
+create table `emprestimo`(
+`idEmprestimo` int not null auto_increment,
+`dataEmprestimo` date not null,
+`dataDevolucaoPrevista` date not null,
+`dataDevolucaoReal` date not null,
+`status` int not null,
+primary key(`idEmprestimo`)
+);
